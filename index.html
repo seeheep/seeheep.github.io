@@ -6,14 +6,94 @@
     <meta name="description" content="Personal website for PhD student Seehee Park" />
     <title>Seehee Park</title>
 
-    <!-- Google fonts for this template -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Tajawal"
-      rel="stylesheet"
-    />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+      }
+
+      .profile {
+        width: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 1rem;
+      }
+
+      h1, h3, h6 {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.3rem;
+      }
+
+      h3.accent {
+        color: #0077cc;
+        margin-top: 0;
+      }
+
+      h6 {
+        font-weight: normal;
+        color: #666;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+      }
+
+      section {
+        margin-bottom: 2rem;
+      }
+
+      .header {
+        font-size: 1.3rem;
+        border-bottom: 2px solid #0077cc;
+        padding-bottom: 0.3rem;
+        margin-bottom: 1rem;
+        color: #0077cc;
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+
+      li {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+
+      .accent {
+        font-weight: 600;
+        color: #0077cc;
+      }
+
+      a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body>
@@ -30,8 +110,6 @@
         with a particular focus on human-AI collaboration.
       </p>
 
-      <br />
-
       <section>
         <h3 class="header">Education</h3>
         <p>PhD in Education, University of California, Irvine. Expected Graduation: 2027</p>
@@ -39,55 +117,53 @@
         <p>BS in Sociology, University of California, Los Angeles. Graduation: 2016</p>
       </section>
 
-     <section>
-  <h3 class="header">Publications</h3>
-  <ul>
-    <li>
-      <span class="accent">Park S.</span> Shariff D., Samadi, M. A., Nixon, N., D’Mello S.
-      (2025). Discourse to Dynamics: Understanding Team Interactions Through Temporally
-      Sensitive NLP. In Proceedings of the 17th International Conference on Educational Data
-      Mining (pp.xx) (in progress).
-    </li>
-    <li>
-      <span class="accent">Park S.</span> Nixon, N., D’Mello, S., Shariff, D., Choi, J.
-      (2025, March). Understanding Collaborative Learning Processes and Outcomes Through
-      Student Discourse Dynamics. In Proceedings of the 15th Learning Analytics and Knowledge
-      Conference.
-    </li>
-    <li>
-      <span class="accent">Cai, Z*., Park, S*.</span> Nixon, N., & Doroudi, S. (2024, May).
-      Advancing Knowledge Together: Integrating Large Language Model-based Conversational AI
-      in Small Group Collaborative Learning. In Extended Abstracts of the CHI Conference on
-      Human Factors in Computing Systems (pp. 1–9), link [EA] (33.8%) – *equal contribution
-    </li>
-    <li>
-      Samadi, M. A., Jaquay, S., Lin, Y., Tajik, E., <span class="accent">Park, S.</span>, & Nixon, N. (2024, March).
-      Minds and Machines Unite: Deciphering Social and Cognitive Dynamics in Collaborative Problem Solving with AI.
-      In Proceedings of the 14th Learning Analytics and Knowledge Conference (pp. 885–891), link.
-    </li>
-    <li>
-      Kim, H-E., Cho, Y-H., & <span class="accent">Park, S.</span> (2023, March).
-      Exploring the Interaction Patterns between Learners and AI Translator in English Writing.
-      <i>Journal of Korean Association for Educational Information and Media</i>, 29(1), 201–228.
-      https://doi.org/10.15833/KAFEIAM.29.1.201
-    </li>
-  </ul>
-</section>
+      <section>
+        <h3 class="header">Publications</h3>
+        <ul>
+          <li>
+            <span class="accent">Park S.</span> Shariff D., Samadi, M. A., Nixon, N., D’Mello S. (2025). 
+            Discourse to Dynamics: Understanding Team Interactions Through Temporally Sensitive NLP. 
+            In Proceedings of the 17th International Conference on Educational Data Mining (in progress).
+          </li>
+          <li>
+            <span class="accent">Park S.</span> Nixon, N., D’Mello, S., Shariff, D., Choi, J. (2025, March). 
+            Understanding Collaborative Learning Processes and Outcomes Through Student Discourse Dynamics. 
+            In Proceedings of the 15th Learning Analytics and Knowledge Conference.
+          </li>
+          <li>
+            <span class="accent">Cai, Z*., Park, S*.</span> Nixon, N., & Doroudi, S. (2024, May). 
+            Advancing Knowledge Together: Integrating Large Language Model-based Conversational AI in Small Group Collaborative Learning. 
+            In Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (pp. 1–9). [*equal contribution]
+          </li>
+          <li>
+            Samadi, M. A., Jaquay, S., Lin, Y., Tajik, E., <span class="accent">Park, S.</span>, & Nixon, N. (2024, March). 
+            Minds and Machines Unite: Deciphering Social and Cognitive Dynamics in Collaborative Problem Solving with AI. 
+            In Proceedings of the 14th Learning Analytics and Knowledge Conference (pp. 885–891).
+          </li>
+          <li>
+            Kim, H-E., Cho, Y-H., & <span class="accent">Park, S.</span> (2023, March). 
+            Exploring the Interaction Patterns between Learners and AI Translator in English Writing. 
+            <i>Journal of Korean Association for Educational Information and Media</i>, 29(1), 201–228. 
+            <a href="https://doi.org/10.15833/KAFEIAM.29.1.201" target="_blank">DOI</a>
+          </li>
+        </ul>
+      </section>
 
-     <section>
-  <h3 class="header">Projects</h3>
-  <ul>
-    <li>
-      <strong>AI as Teammate</strong><br />
-      ・ Designing a platform to develop human-AI teaming<br />
-      ・ Supervised software engineering undergraduate and graduate students as a project sponsor
-    </li>
-    <li>
-      <strong>Educhat AI Facilitator</strong> (Jan. 2023 – Dec. 2024)<br />
-      ・ Supervised software engineering and informatics undergraduate and graduate students as a project sponsor<br />
-      ・ Integrating LLM-based Conversational AI in Small Group Collaborative Learning
-    </li>
-  </ul>
+      <section>
+        <h3 class="header">Projects</h3>
+        <ul>
+          <li>
+            <strong>AI as Teammate</strong><br />
+            ・ Designing a platform to develop human-AI teaming<br />
+            ・ Supervised software engineering undergraduate and graduate students as a project sponsor
+          </li>
+          <li>
+            <strong>Educhat AI Facilitator</strong> (Jan. 2023 – Dec. 2024)<br />
+            ・ Supervised software engineering and informatics undergraduate and graduate students as a project sponsor<br />
+            ・ Integrating LLM-based Conversational AI in Small Group Collaborative Learning
+          </li>
+        </ul>
+      </section>
     </div>
   </body>
 </html>
